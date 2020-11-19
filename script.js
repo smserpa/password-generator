@@ -47,7 +47,7 @@ function charArray(low, high) {
 
 
     var userSelection = [];
-    console.log(LOWERCASE_CHAR_CODES);
+    
     if (lowercase) {
       userSelection = userSelection.concat(LOWERCASE_CHAR_CODES);
     }
@@ -65,7 +65,7 @@ function charArray(low, high) {
     }
     
     var selectionString = userSelection;
-    console.log(userSelection);
+    
     var password = "";
     
       for (let i = 0; i < length; i++){
