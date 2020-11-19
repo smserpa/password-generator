@@ -12,17 +12,17 @@ This application runs in the browser through dynamically updated HTML and CSS th
 
 ### Landing Page
 
-! [Landing page view] (./assets/img1.png)
+![Landing page view](./assets/img1.png)
 
 ### User selection of password length
 
-! [Password Length View] (./assets/img2.png)
+![Password Length View](./assets/img2.png)
 
 ### Prompt for one of the character types
 
-! [Character Type View] (./assets/img3.png)
+![Character Type View](./assets/img3.png)
 
 ### Resulting random password generated
 
-! [Generated view] (./assets/img4.png)
+![Generated view](./assets/img4.png)
 
