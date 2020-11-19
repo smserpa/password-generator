@@ -26,3 +26,7 @@ This application runs in the browser through dynamically updated HTML and CSS th
 
 ![Generated view](./assets/img4.png)
 
+## Link to Deployed Application
+
+[password-generator](https://smserpa.github.io/password-generator/)
+
