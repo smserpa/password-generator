@@ -32,12 +32,12 @@ function charArray(low, high) {
 
     var length = parseInt(prompt("Please select a password length between 8 and 128 characters"));
   
-    if (length === NaN) {
-      alert(length + " is not a valid entry. Please enter a number between 8 and 128 to continue.");
-      return "";
+    if (isNaN(length)) {
+      alert("You're entry must be a number. Please select a number between 8 and 128 to continue.");
+      generatePassword();
     } else if ( length < 8 || length > 128 ) {
       alert("Password length must be between 8 and 128 character. Please select a number within that range.");
-      return "";
+      generatePassword();
     }
     
     var lowercase = confirm("Do you want the password to contain lowercase letters?");
@@ -73,5 +73,6 @@ function charArray(low, high) {
         password += selectionString[Math.floor(Math.random() * selectionString.length)];
       }
       return password
+    
 }
 
