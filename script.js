@@ -1,8 +1,16 @@
-// Assignment Code
-var generateBtn = document.querySelector("#generate");
 
-// Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
+// Open Modal
+var modal = document.querySelector("#myModal");
+var generateBtn = document.querySelector("#generate");
+var span = document.querySelector(".close");
+
+generateBtn.addEventListener("click", function() {
+  modal.style.display = "block"
+});
+
+span.addEventListener("click", function() {
+  modal.style.display = "none";
+})
 
 // Write password to the #password input
 function writePassword() {
