@@ -23,7 +23,8 @@ body {
   padding-right: 20px;
 }
 
-header {
+header,
+.modal-header {
   text-align: center;
   padding: 20px;
   padding-top: 0px;
@@ -137,6 +138,12 @@ button[disabled] {
   padding: 20px;
   border: 1px solid #888;
   width: 80%;
+}
+
+.character-type {
+  padding-top: 20px;
+  margin: auto;
+  width: 70%;
 }
 
 .close {
